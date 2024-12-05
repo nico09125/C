@@ -4,7 +4,7 @@ double factorial(int n);
 
 void main(){
     int n;
-    printf("Introduix un número i et calcularé el factorial: ");
+    printf("Introduce un número y calcularé el factorial: ");
     scanf("%d", &n);
     printf("%f\n", factorial(n));
     return;
